@@ -7,9 +7,50 @@
   Add your open source license, GitHub uses Creative Commons Attribution 4.0 International.
 -->
 
-# TBD-course-name
+# Intro to JS
 
-_TBD-course-description_
+# You need Javascript?
+We're here.
+## Details:
+<details>
+  <summary>
+    About
+  </summary>
+  In this course, you'll learn all about Javascript(JS), one of three of the most important coding languages in the world.
+  JS holds the keys to drawing shapes and objects, varibles, and animations. We'll cover all 4 in this course.
+</details>
+<details>
+  <summary>
+    We'll answer these questions in the course:
+  </summary>
+    •  What is JS, and why is it <strong>so</strong> important?<br>
+    •  How do you embed JS into HTML?<br>
+    •  How do you create animations(moving pictures) with Prossesing JS?<br>
+    •  What is the DOM node and Tree?
+</details>
+
+When you're done, you'll be able to:
+- Create animations on your own
+- Create shapes on your own
+- Embed JS into HTML using the DOM Tree
+
+# What you'll build
+
+![image](https://cdn.kastatic.org/ka-perseus-images/d1e0c882458033c01fc8484273a2c3ed603a1614.gif)
+
+[See it in action here](https://cdn.kastatic.org/ka-perseus-images/d1e0c882458033c01fc8484273a2c3ed603a1614.gif)
+
+# Prerequisites
+
+Before taking this course, you should know:
+- HTML
+- CSS
+> If you don't know HTML or CSS, go to either [Khan Academy](https://khanacademy.org/computing/computer-programming/html-css) for both HTML and CSS, Codecademy for both [HTML](https://www.codecademy.com/learn/learn-html) and [CSS](https://www.codecademy.com/learn/learn-css), or Github Lab for [HTML](lab.github.com/githubtraining/introduction-to-html).
+
+# Audience
+
+Take this course if your are in dire need of Prossesing JS and the DOM tree. All Aboard!!!
+This course may take 20-90 min.
 
 <!--
   <<< Author notes: Start of the course >>>
@@ -20,17 +61,9 @@ _TBD-course-description_
   Do not use quotes on the <details> tag attributes.
 -->
 
-<!--step0
+<!--step0-->
 
-TBD-welcome-paragraph
-
-- **Who is this for**: TBD-audience.
-- **What you'll learn**: TBD-objective.
-- **What you'll build**: TBD-result.
-- **Prerequisites**: TBD-prerequisites.
-- **How long**: This course is TBD-step-count steps long and takes less than TBD-duration to complete.
-
-## How to start this course
+# How to start this course
 
 1. Above these instructions, right-click **Use this template** and open the link in a new tab.
    ![Use this template](https://user-images.githubusercontent.com/1221423/169618716-fb17528d-f332-4fc5-a11a-eaa23562665e.png)
@@ -40,7 +73,7 @@ TBD-welcome-paragraph
    ![Create a new repository](https://user-images.githubusercontent.com/1221423/169618722-406dc508-add4-4074-83f0-c7a7ad87f6f3.png)
 3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
 
-endstep0-->
+<!--endstep0-->
 
 <!--
   <<< Author notes: Step 1 >>>
@@ -54,17 +87,27 @@ endstep0-->
 <details id=1 open>
 <summary><h2>Step 1: TBD-step-1-name</h2></summary>
 
-_Welcome to "TBD-course-name"! :wave:_
+_Welcome to "Intro to Javascript"! :wave:_
 
-TBD-step-1-information
+In this course, you will learn how to use JS to create a car.
 
-**What is _TBD-term-1_**: TBD-definition-1
 
+**What is the `draw` function?**
+> The `draw function` helps us repeatedly draw the picture, so it can be animated. Somewhat like the function in a GIF.
+  
 ### :keyboard: Activity: TBD-step-1-name
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. TBD-step-1-instructions.
-1. Wait about 20 seconds then refresh this page for the next step.
+ - [ ] First, navigate to the `index.js` file on the `create-car` branch.
+ - [ ] Then add the following code:<br>
+   `var myBackground = color(0, 0, 255, 0.5);// You can change the name of the varible`<br>
+   `background(myBackground);`<br>
+   `draw = function() {`<br>
+   `var drawCar = function() {// don't forget 'var'`<br>
+   ` ` <br>
+   `}` <br>
+   `}` <br>
+> var stands for varible. Varibles can replace long strings, booleans, and math equations in Prossesing JS.
+ - [ ] Last step: push the changes into the `create-car` branch.
 
 </details>
 
