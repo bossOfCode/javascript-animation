@@ -70,6 +70,7 @@ This course may take 20-90 min.
 2. In the new tab, follow the prompts to create a new repository.
    - For owner, choose your personal account or an organization to host the repository.
    - We recommend creating a public repository—private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
+   - Don't forget to check the "Include all Branches" box. 
    ![Create a new repository](https://user-images.githubusercontent.com/1221423/169618722-406dc508-add4-4074-83f0-c7a7ad87f6f3.png)
 3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
 
@@ -85,7 +86,7 @@ This course may take 20-90 min.
 -->
 
 <details id=1 open>
-<summary><h2>Step 1: TBD-step-1-name</h2></summary>
+<summary><h2>Step 1: Create the car</h2></summary>
 
 _Welcome to "Intro to Javascript"! :wave:_
 
@@ -95,8 +96,7 @@ In this course, you will learn how to use JS to create a car.
 **What is the `draw` function?**
 > The `draw function` helps us repeatedly draw the picture, so it can be animated. Somewhat like the function in a GIF.
   
-### :keyboard: Activity: TBD-step-1-name
-
+### :keyboard: Activity: Create the car
  - [ ] First, navigate to the `index.js` file on the `create-car` branch.
  - [ ] Then add the following code:<br>
    `var myBackground = color(0, 0, 255, 0.5);// You can change the name of the varible`<br>
