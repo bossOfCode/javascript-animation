@@ -89,7 +89,7 @@ This course may take 20-90 min.
 
 _Welcome to "Intro to Javascript"! :wave:_
 
-In this course, you will learn how to use JS to create a car.
+In this course, you will learn how to use JS to create and animate a car.
 
 
 **What is the `draw` function?**
@@ -99,7 +99,7 @@ In this course, you will learn how to use JS to create a car.
 
  - [ ] First, navigate to the `index.js` file on the `create-car` branch.
  - [ ] Then add the following code:<br>
-   `var myBackground = color(0, 0, 255, 0.5);// You can change the name of the varible`<br>
+   `var myBackground = color(0, 0, 255, 0.5);`<br>
    `background(myBackground);`<br>
    `draw = function() {`<br>
    `var drawCar = function() {// don't forget 'var'`<br>
@@ -107,6 +107,8 @@ In this course, you will learn how to use JS to create a car.
    `}` <br>
    `}` <br>
 > var stands for varible. Varibles can replace long strings, booleans, and math equations in Prossesing JS.
+
+> Note: If you want a different color, play around with the values in `myBackground`.
  - [ ] Last step: push the changes into the `create-car` branch.
 
 </details>
