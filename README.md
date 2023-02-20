@@ -66,7 +66,10 @@ This course may take 20-90 min.
 # How to start this course
 
 1. Above these instructions, right-click **Use this template** and open the link in a new tab.
-   ![Use this template](https://user-images.githubusercontent.com/1221423/169618716-fb17528d-f332-4fc5-a11a-eaa23562665e.png)
+   ![Use this template](https://user-images.githubusercontent.com/1221423/169618716-fb17528d-f332-4fc5-a11a-eaa23562665e.png) 
+   <br> <strong>OR</strong> <br>
+   Right-click **Start course** and open the link in a new tab.
+   <br />[![start-course](https://user-images.githubusercontent.com/1221423/218596841-0645fe1a-4aaf-4f51-9ab3-8aa2d3fdd487.svg)](https://github.com/bossOfCode/javascript-animation-template/generate)
 2. In the new tab, follow the prompts to create a new repository.
    - For owner, choose your personal account or an organization to host the repository.
    - We recommend creating a public repository—private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
@@ -86,7 +89,7 @@ This course may take 20-90 min.
 -->
 
 <details id=1 open>
-<summary><h2>Step 1: Create the car</h2></summary>
+<summary><h2>Step 1: Create the background</h2></summary>
 
 _Welcome to "Intro to Javascript"! :wave:_
 
@@ -96,20 +99,13 @@ In this course, you will learn how to use JS to create and animate a car.
 **What is the `draw` function?**
 > The `draw function` helps us repeatedly draw the picture, so it can be animated. Somewhat like the function in a GIF.
   
-### :keyboard: Activity: Create the car
+### :keyboard: Activity: Create the background
  - [ ] First, navigate to the `index.js` file on the `create-car` branch.
  - [ ] Then add the following code:<br>
-   `var myBackground = color(0, 0, 255, 0.5);`<br>
+   `var myBackground = color(0, 0, 255);`<br>
    `background(myBackground);`<br>
-   `draw = function() {`<br>
-   `var drawCar = function() {// don't forget 'var'`<br>
-   ` ` <br>
-   `}` <br>
-   `}` <br>
-> var stands for varible. Varibles can replace long strings, booleans, and math equations in Prossesing JS.
-
 > Note: If you want a different color, play around with the values in `myBackground`.
- - [ ] Last step: push the changes into the `create-car` branch.
+ - [ ] Last step: push the changes into the `create-car` branch. Then, wait about 20 seconds, then refresh the page.
 
 </details>
 
@@ -123,16 +119,19 @@ In this course, you will learn how to use JS to create and animate a car.
 <details id=2>
 <summary><h2>Step 2: TBD-step-2-name</h2></summary>
 
-_You did TBD-step-1-name! :tada:_
+_You created the background! :tada:_
 
-TBD-step-2-information
+Now it's time for us to draw the actual car!
 
 **What is _TBD-term-2_**: TBD-definition-2
 
-### :keyboard: Activity: TBD-step-2-name
+### :keyboard: Activity: Create the car
 
-1. TBD-step-2-instructions.
+1. Navigate to the `index.js` file on the `create-car` branch.
+2. Click Here to see the lines of code that you need to add.
 1. Wait about 20 seconds then refresh this page for the next step.
+
+> Seriously, if you want the car to be a different color, play around with the values in `fill();`.
 
 </details>
 
